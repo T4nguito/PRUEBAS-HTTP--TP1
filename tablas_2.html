@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html >
+    <head>
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <header>
+            </header>
+            <!--Ejemplos de como mover filas y columnas-->
+            <!--Ejmplo para uso de style por celda-->
+            <main>
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td colspan="2" id="b1">1</td>
+                        <!-- <td>1</td> -->
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td rowspan="3" id="e2">2</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <!-- <td>3</td>                       -->
+                    </tr>
+
+                    <tr>
+                        <td rowspan="3" colspan="2" id="a4">4</td>
+                        <!-- <td>4</td> -->
+                        <td>4</td>
+                        <td>4</td>
+                        <!-- <td>4</td> -->
+                    </tr>
+
+                    <tr>
+                        <!-- <td>5</td> -->
+                        <!-- <td>5</td> -->
+                        <td>5</td>
+                        <td>5</td>
+                        <td>5</td>
+                        
+                    </tr>
+
+                    <tr>
+                        <!-- <td>6</td> -->
+                        <!-- <td>6</td> -->
+                        <td>6</td>
+                        <td rowspan="2" colspan="2" id="d6">6</td>
+                        <!-- <td>6</td> -->
+                        
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <!-- <td>7</td>
+                        <td>7</td> -->
+                        
+                    </tr>
+
+                </table>
+            </main>
+
+            <footer>
+            </footer>
+
+        </div>
+
+        <style>
+            table, td {
+                border :1px solid black;
+            }
+            td {
+                
+                width: 100px;
+            }
+
+            #b1 {
+                background-color: orange;
+            }
+
+            #e2 {
+                background-color: blue;
+            }
+
+            #a4 {
+                background-color: red;
+            }
+
+            #d6{
+                background-color: green;
+            }
+        </style>
+    </body>
+</html>

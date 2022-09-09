@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html >
+    <head>
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <header>
+            </header>
+
+            <main>
+                <h2>Primera Ejemplo</h2>
+                <!--Estructura de Tabla-->
+                <table>
+                    <caption>Con una cabezera y de a una columna</caption>
+
+                    <!--Cabezera del anidamiento-->
+                    <thead>
+
+                         <!--tr Fila-->
+                         <tr>
+                            <th>Marca</th>
+                            <th>Modelo</th>
+                            <th>Codigo</th>
+                        </tr>
+                    </thead>
+                    
+                    <!--Cuerpo-->
+                    <tbody>
+                        <tr>
+                            <td>Motorola</td>
+                            <td>G8 Power</td>
+                            <td>M-68</td> 
+                        </tr>          
+                        
+                        <tr>
+                            <td>Samsung</td>
+                            <td>Galaxy A03</td>
+                            <td>S-GA03</td> 
+                        </tr> 
+
+                        <tr>
+                            <td>Huawei</td>
+                            <td>P40</td>
+                            <td>H-P40</td> 
+                        </tr> 
+
+                    </tbody>
+
+                    <!--Pie de pagina-->
+                    <tfoot>
+                        <tr>
+                            <th>Marca</th>
+                            <th>Modelo</th>
+                            <th>Codigo</th>
+                        </tr>
+                    </tfoot> 
+                </table>
+
+                <!--Etiqueta hr no necesita cierra y representa una lina horizontal-->
+                <hr>
+
+                <h2>Segundo Ejemplo</h2>
+                <!--Estructura de Tabla-->
+                <table>
+                    <caption>Con una cabezera y de a dos columna</caption>
+
+                    <!--Cabezera del anidamiento-->
+                    <thead>
+
+                         <!--tr Fila-->
+                         <tr>
+                            <!--th para negrita-->
+                            <!-- colspan para fimas y rowspan para columnas agrega la cantidad en numeros -->
+                            <th colspan="2">Marca y Modelo</th>
+                            <th>Codigo</th>
+                        </tr>
+                    </thead>
+                    
+                    <!--Cuerpo-->
+                    <tbody>
+                        <tr>
+                            <td>Motorola</td>
+                            <td>G8 Power</td>
+                            <td>M-68</td> 
+                        </tr>          
+                        
+                        <tr>
+                            <td>Samsung</td>
+                            <td>Galaxy A03</td>
+                            <td>S-GA03</td> 
+                        </tr> 
+
+                        <tr>
+                            <td>Huawei</td>
+                            <td>P40</td>
+                            <td>H-P40</td> 
+                        </tr> 
+
+                    </tbody>
+                    
+                  
+                </table>
+
+                <hr>
+
+                <h2>Tercer Ejemplo</h2>
+                <!--Estructura de Tabla-->
+                <table>
+                    <caption>Sin Cabezera</caption>
+                    <tr>
+                        <th>Marca</th>
+                        <td>Modelo</td>
+                        <td>Codigo</td>
+                    </tr>
+                    <tr>
+                        <th>Motorola</th>
+                        <td>G8 Power</td>
+                        <td>M-68</td>
+                    </tr>
+
+                    <tr>
+                        <th>Samsung</th>
+                        <td>Galaxy A03</td>
+                        <td>S-GA03</td> 
+                    </tr> 
+
+                    <tr>
+                        <th>Huawei</th>
+                        <td>P40</td>
+                        <td>H-P40</td> 
+                    </tr> 
+
+
+
+
+                </table>
+
+                <hr>
+
+                <h2>Cuarto Ejemplo</h2>
+                <!--Estructura de Tabla-->
+                <table>
+                    <caption>Sin Cabezera</caption>
+                    <tr>
+                        <th>Marca</th>
+                        <td>Modelo</td>
+                        <td>Codigo</td>
+                    </tr>
+
+                    <tr>
+                        <th>Motorola</th>
+                        <td>G8 Power</td>
+                        <td>M-68</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="2">Samsung</th>
+                        <td>Galaxy A03</td>
+                        <td>S-GA03</td> 
+                    </tr> 
+
+                    <tr>
+                        <!-- <th>Samsung</th> -->
+                        <td>Galaxy A04</td>
+                        <td>S-GA03</td> 
+                    </tr>
+
+                    <tr>
+                        <th>Huawei</th>
+                        <td>P40</td>
+                        <td>H-P40</td> 
+                    </tr> 
+
+
+
+
+                </table>
+
+                <p>dato 2</p>
+            </main>
+
+            
+            <footer>
+            </footer>
+
+        </div>
+
+        <!--Estilo de tabla-->
+        <style>
+            table, td, th {
+                border: 1px solid black;
+            }
+
+            thead {
+                background-color: aqua;
+
+            }
+
+            th {
+                background-color: aqua;
+
+            }
+        </style>
+    </body>
+</html>
